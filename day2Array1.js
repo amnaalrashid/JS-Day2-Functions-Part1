@@ -1,0 +1,12 @@
+let groceries = ["Milk", "Orange", "Carrot", "Mango", "Bread"];
+let length = groceries.length;
+console.log(groceries);
+console.log(groceries[1]);
+console.log(length);
+console.log(`The last element is ${groceries[length - 1]}`);
+let lastElement = groceries.pop();
+console.log(`The removed element is ${lastElement}`);
+groceries.push("Banana", "Cheese");
+console.log(` The new list is ${groceries}`);
+let firstThreeElement = groceries.slice(0, 3);
+console.log(`The first three elements in the list are: ${firstThreeElement}`);
